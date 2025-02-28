@@ -14,8 +14,8 @@ MY_CONFIG.OUTPUT_FOLDER_FINAL = os.path.join(MY_CONFIG.OUTPUT_FOLDER , "output_f
 ### -------------------------------
 
 ### Milvus config
-MY_CONFIG.DB_URI = './rag_2.db'  # For embedded instance
-# MY_CONFIG.DB_URI = 'http://localhost:19530'  # For docker
+#MY_CONFIG.DB_URI = './rag_2.db'  # For embedded instance
+MY_CONFIG.DB_URI = 'http://localhost:19530'  # For docker
 MY_CONFIG.COLLECTION_NAME = 'rag_milvus'
 
 
