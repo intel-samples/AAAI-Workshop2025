@@ -62,6 +62,8 @@ Deploying open LLMs (LLama / Mistral-7B / Granite) for generative capabilities.
 Incorporating rerankers for improved relevance.
 Hands-on: Participants deploy a travel Q&A system based on the pipeline.
 
+    [Follow this guide](data-prep.md)
+
 4. Bonus Topics (Time Permitting)
 Utilizing Intel Gaudi accelerators for optimization and scalability.
 Experiment with various vector databases
@@ -70,3 +72,18 @@ Experiment with various vector databases
 
 ## Conclusion
 This workshop provides a hands-on introduction to building scalable RAG systems, emphasizing data preparation and deployment optimization. By combining IBM DataPrepKit and OPEA, participants will learn to create robust, real-world AI pipelines that seamlessly bridge data quality and model performance.
+
+
+## Authors and Contributors
+
+### Ezequiel Lanza
+
+**AI open source Evangelist at Intel**
+
+### Sujee Maniyam
+
+**AI Engineer, Developer Advocate @ Node51 (Consulting for [IBM / The AI Alliance](https://thealliance.ai/))**  <br>
+
+Sujee Maniyam is an expert in Generative AI, Machine Learning, Deep Learning, Big Data, Distributed Systems, and Cloud technologies. He is passionate about developer education, fostering community engagement. Sujee has led numerous training sessions, hackathons, and workshops. He is also an author, open source contributor and frequent speaker at conferences and meetups.
+
+[Linkedin](https://www.linkedin.com/in/sujeemaniyam/) &nbsp;  • &nbsp;[portfolio](https://sujee.dev/portfolio)
