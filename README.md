@@ -80,6 +80,10 @@ This workshop provides a hands-on introduction to building scalable RAG systems,
 
 **AI open source Evangelist at Intel**
 
+
+[Linkedin](https://www.linkedin.com/in/ezelanza/)
+👋 Hi, I'm Ezequiel Lanza (Eze), and I'm passionate about helping people explore the thrilling realm of artificial intelligence. As a regular AI conference presenter, I take pride in creating impactful use cases, tutorials, and guides to assist developers in adopting open source AI tools.With a solid foundation in engineering and a decade of experience assisting customers and developers in the software realm, I bring a wealth of practical knowledge to the table. Currently, I'm writing my thesis as I pursue a Master's in Data Science from Universidad Austral in Argentina (Yeah, it was AI before ChatGPT:).
+
 ### Sujee Maniyam
 
 **AI Engineer, Developer Advocate @ Node51 (Consulting for [IBM / The AI Alliance](https://thealliance.ai/))**  <br>
