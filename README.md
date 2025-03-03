@@ -80,8 +80,9 @@ This workshop provides a hands-on introduction to building scalable RAG systems,
 
 **Open Source AI Evangelist at Intel (TAC Chair for [LF AI and Data](https://lfaidata.foundation))**
 
-[Linkedin](https://www.linkedin.com/in/ezelanza/)
+
 👋 Hi, I'm Ezequiel Lanza (Eze), and I'm passionate about helping people explore the thrilling realm of artificial intelligence. As a regular AI conference presenter, I take pride in creating impactful use cases, tutorials, and guides to assist developers in adopting open source AI tools.With a solid foundation in engineering and a decade of experience assisting customers and developers in the software realm, I bring a wealth of practical knowledge to the table. Currently, I'm writing my thesis as I pursue a Master's in Data Science from Universidad Austral in Argentina (Yeah, it was AI before ChatGPT:).
+[Linkedin](https://www.linkedin.com/in/ezelanza/)  &nbsp;  • &nbsp;[Dev.to](https://dev.to/eze_lanza)
 
 ### Sujee Maniyam
 
@@ -96,3 +97,5 @@ Sujee Maniyam is an expert in Generative AI, Machine Learning, Deep Learning, Bi
 **Senior AI Software Solutions Engineer @ Intel**
 
 I’m a Senior AI Software Solutions Engineer at Intel, currently pursuing a master’s in Computer Science at Georgia Tech focusing on Machine Learning. My work involves creating synthetic datasets, fine-tuning large language models, and training multi-modal models using Intel’s Gaudi accelerators as part of the Development Enablement team. I’m particularly interested in Deep Learning, information retrieval, and biodiversity research, aiming to improve species identification and support conservation efforts.
+
+[Linkedin](https://www.linkedin.com/in/murilo-gustineli/) 
