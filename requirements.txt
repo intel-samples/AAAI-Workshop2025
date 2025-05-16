@@ -18,5 +18,5 @@ ipython
 ipywidgets
 IProgress
 chardet==5.2.0
-charset-normalizer==3.3.2
+charset-normalizer==3.4.2
 requests
