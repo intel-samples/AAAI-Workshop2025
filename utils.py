@@ -59,7 +59,7 @@ def download_file(url, local_file, chunk_size=1024*1024):
     os.makedirs(os.path.dirname(local_file), exist_ok=True)
 
     # Stream the file download
-    with requests.get(url, stream=True) as r:
+    with requests.get(url, stream=True, timeout=10) as r:
         r.raise_for_status()
         with open(local_file, 'wb') as f:
             for chunk in r.iter_content(chunk_size=chunk_size):
