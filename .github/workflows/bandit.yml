@@ -1,11 +1,11 @@
 name: Bandit Scan
-
 on:
   push:
-    branches: [ "main" ]
+    branches:
+      - main
   pull_request:
-    # The branches below must be a subset of the branches above
-    branches: [ "main" ]
+    branches:
+      - main
   schedule:
     - cron: '40 5 * * 5'
   workflow_dispatch:
@@ -16,16 +16,19 @@ permissions:
 jobs:
   bandit_scan:
     runs-on: ubuntu-latest
-    permissions:
-      security-events: write
     steps:
-      - name: Harden Runner
-        uses: step-security/harden-runner@91182cccc01eb5e619899d80e4e971d6181294a7 # v2.10.1
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
-          egress-policy: audit
-
-      - name: Perform Bandit Analysis
-        uses: PyCQA/bandit-action@8a1b30610f61f3f792fe7556e888c9d7dffa52de # v1.0.0
+          python-version: '3.x'
+      - name: Install Bandit
+        run: pip install bandit
+      - name: Run Bandit
+        run: bandit -r --format txt --output bandit-output.txt .
+      - name: Upload Bandit report
+        uses: actions/upload-artifact@v4
         with:
-          severity: "all"
-          confidence: "all"
+          name: bandit-report
+          path: bandit-output.txt
